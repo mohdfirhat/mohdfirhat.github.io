@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet" />
+    <title>Firhat Portfolio</title>
+  </head>
+  <body>
+    <header>
+      <div class="title-container">
+        <h1 class="title">Firhat Portfolio</h1>
+      </div>
+      <ul class="nav-list">
+        <li class="navbtn"><a href="#about-me">About Me</a></li>
+        <li class="navbtn"><a href="#projects">Projects</a></li>
+        <li class="navbtn"><a href="#contact">Contact</a></li>
+      </ul>
+    </header>
+
+    <main>
+      <div class="about-me-container" id="about-me">
+        <div class="about-me-img-container">
+          <img src="./asset/Picture 1.jpg" alt="Image of Firhat" />
+        </div>
+
+        <div class="about-me-text-wrapper">
+          <h3 class="intro-text1">Full-Stack Web Developer 👋</h3>
+          <h3 class="intro-text2">using <span class="ityped"></span></h3>
+          <p class="intro-text3">
+            Hi, I'm Firhat. A passionate Full-Stack Developer based in
+            Singapore. 📍
+          </p>
+          <div class="about-me-contact-container">
+            <img src="./asset/linkedin.svg" alt="LinkedIn image" />
+            <img src="./asset/square-github.svg" alt="GitHub image" />
+          </div>
+        </div>
+      </div>
+      <div class="project-container" id="projects">
+        <h2 class="project-header">Projects</h2>
+        <div class="project-card-container">
+          <!-- First Project -->
+          <div class="project-card">
+            <img
+              class="project-img"
+              src="./asset/nikeshop.png"
+              alt="nike shop project" />
+            <div class="project-card-desc-wrapper">
+              <div class="project-card-text-wrapper">
+                <h3 class="project-card-title">Nike Shop</h3>
+                <p class="project-card-desc">
+                  The Nike Shop is a PERN Full-Stack project. React is used as
+                  the frontend framework along with axios for data fetching. For
+                  the backend, NodeJS is used with ExpressJS. PostgresSQL is
+                  choosen as the SQL database with One-To-Many/Many-To-Many
+                  relationship occuring between the database.
+                </p>
+              </div>
+              <div class="project-card-bottom-wrapper">
+                <div class="tech-img-container">
+                  <img
+                    src="./asset/postgres.svg"
+                    alt="PostgresSQL image"
+                    title="PostgresSQL" />
+                  <img
+                    src="./asset/expressjs.svg"
+                    alt="ExpressJS image"
+                    title="ExpressJS" />
+                  <img
+                    src="./asset/react.svg"
+                    alt="React image"
+                    title="React" />
+                  <img
+                    src="./asset/nodejs.svg"
+                    alt="NodeJS image"
+                    title="NodeJS" />
+                </div>
+                <p class="project-link">
+                  <a href="https://github.com/mohdfirhat/nikeshop"
+                    >View Repository</a
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- Second Project -->
+          <div class="project-card">
+            <img
+              class="project-img"
+              src="./asset/adidasshop.png"
+              alt="nike shop project" />
+            <div class="project-card-desc-wrapper">
+              <div class="project-card-text-wrapper">
+                <h3 class="project-card-title">Adidas Shop</h3>
+                <p class="project-card-desc">
+                  The Adidas Shop is a MERN Full-Stack project. React is used as
+                  the frontend framework along with axios for data fetching. For
+                  the backend, NodeJS is used with ExpressJS. MongoDB is choosen
+                  as the No-SQL database.
+                </p>
+              </div>
+              <div class="project-card-bottom-wrapper">
+                <div class="tech-img-container">
+                  <img
+                    src="./asset/mongodb.png"
+                    alt="MongoDb image"
+                    title="MongoDb" />
+                  <img
+                    src="./asset/expressjs.svg"
+                    alt="ExpressJS image"
+                    title="ExpressJS" />
+                  <img
+                    src="./asset/react.svg"
+                    alt="React image"
+                    title="React" />
+                  <img
+                    src="./asset/nodejs.svg"
+                    alt="NodeJS image"
+                    title="NodeJS" />
+                </div>
+                <p class="project-link">
+                  <a href="https://adidas-shop.herokuapp.com/">View Website</a>
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- Third Project -->
+          <div class="project-card">
+            <img
+              class="project-img"
+              src="./asset/SpringBoot.png"
+              alt="nike shop project" />
+            <div class="project-card-desc-wrapper">
+              <div class="project-card-text-wrapper">
+                <h3 class="project-card-title">
+                  Dining Review Website(SpringBoot)
+                </h3>
+                <p class="project-card-desc">
+                  The website is a SpringBoot backend website which allow the
+                  user to add user,restaurant and review on the website. It
+                  utilises the H2 database with JPA(Hibernate).
+                </p>
+              </div>
+              <div class="project-card-bottom-wrapper">
+                <div class="tech-img-container">
+                  <img
+                    src="./asset/spring-boot.svg"
+                    alt="SpringBoot image"
+                    title="SpringBoot" />
+                  <img src="./asset/html5.svg" alt="HTML image" title="HTML" />
+                  <img src="./asset/css3-alt.svg" alt="CSS image" title="CSS" />
+                  <img
+                    src="./asset/square-js.svg"
+                    alt="JavaScript image"
+                    title="JavaScript" />
+                </div>
+                <p class="project-link">
+                  <a href="https://github.com/mohdfirhat/dining-review"
+                    >View Repository</a
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="contact-container" id="contact">
+        <h2 class="contact-header">Contacts</h2>
+      </div>
+    </main>
+
+    <script src="./script/ityped.js"></script>
+    <script>
+      window.ityped.init(document.querySelector(".ityped"), {
+        strings: ["HTML CSS  JavaScript", "ReactJs  TailwindCSS  TypeScript"],
+        backDelay: 1000,
+      });
+    </script>
+  </body>
+</html>
